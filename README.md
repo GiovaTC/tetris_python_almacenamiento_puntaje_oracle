@@ -1,4 +1,7 @@
-# tetris_python_almacenamiento_puntaje_oracle
+# tetris_python_almacenamiento_puntaje_oracle :
+
+<img width="203" height="193" alt="image" src="https://github.com/user-attachments/assets/acd0ce8a-579d-497b-a76e-797430d0bb13" />  
+
 # Tetris en python con almacenamiento de puntaje en Oracle :
 
 este documento incluye :
