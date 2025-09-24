@@ -4,7 +4,7 @@
 
 # Tetris en python con almacenamiento de puntaje en Oracle :
 
-<img width="1280" height="1077" alt="image" src="https://github.com/user-attachments/assets/2b3c584d-3720-4300-81a8-c56c79cb04a8" />
+<img width="2553" height="1079" alt="image" src="https://github.com/user-attachments/assets/ce901ac9-fe5d-4164-b5a3-f6de73d12de9" />
 
 este documento incluye :
 
