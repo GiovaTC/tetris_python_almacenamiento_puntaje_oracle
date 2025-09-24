@@ -1,3 +1,37 @@
+#!/usr/bin/env python3
+import pygame
+import sys
+import os
+import oracledb
+from datetime import datetime
+from dotenv import load_dotenv
+
+# Cargar variables del entorno (.env con ORACLE_USER, ORACLE_PASS, ORACLE_DSN)
+load_dotenv()
+
+# ===============================
+# 🔹 Constantes del juego
+# ===============================
+WIDTH, HEIGHT = 300, 600
+ROWS, COLUMNS = 20, 10
+CELL_SIZE = 30
+FPS = 60
+
+COLORS = [
+    (0, 255, 255),  # Cyan
+    (0, 0, 255),    # Azul
+    (255, 165, 0),  # Naranja
+    (255, 255, 0),  # Amarillo
+    (0, 255, 0),    # Verde
+    (128, 0, 128),  # Morado
+    (255, 0, 0)     # Rojo
+]
+
+# ===============================
+# 🔹 Aquí van tus clases Tetris, Piece y persist_score(...)
+# ===============================
+
+
 def draw_grid(screen, game, font):
     for y in range(ROWS):
         for x in range(COLUMNS):
